@@ -1,0 +1,180 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28 Nov 2020, 19:43:24
+    Author     : aoife
+*/
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19 Nov 2020, 16:11:16
+    Author     : aoife
+*/
+
+.container {
+    text-align: center;
+    
+}
+
+.jumbotron {
+    background-color: #E2B4A7;
+}
+ /* Code for btnBuy and btnShop were taken and editted from https://fdossena.com/?p=html5cool/buttons/i.frag  */
+.btnBuy {
+    background-color: #8AA994;
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.1em 0.1em 0;
+    border:0.16em solid rgba(255,255,255,0);
+    border-radius:2em;
+    color: white;
+}
+
+.btnBuy:hover {
+    color: black;
+    border-color: black;
+}
+
+.btnShopNow {
+    background-color: #8AA994;
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.1em 0.1em 0;
+    border:0.16em solid rgba(255,255,255,0);
+    border-radius:2em;
+    color: white;
+}
+
+.btnShopNow:hover {
+    color: black;
+    border-color: black;
+} /* end of code from fdossena.com */
+
+.navbar {
+    background-color: #8AA994!important; 
+    align-content: center;
+    height: 65px;
+}
+
+
+body {
+    background-color: #E2B4A7 !important;
+}
+
+img {
+    text-align: center;
+}
+
+.lead  {
+    font-family: comic-sans; 
+}
+
+/*Code to put a button on the landing page taken and edited from https://www.w3schools.com/howto/howto_css_button_on_image.asp/*  
+
+/* Container needed to position the button. Adjust the width as needed */
+#landing {
+  position: relative;
+  text-align: center;
+  width: 150%;
+}
+
+/* Make the image responsive */
+#landing img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+#landing .btnLanding {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #F1B1A8;
+  color: black;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#landing .btnLanding:hover {
+  background-color: #F1B1A8;
+} /* end of w3schools code */
+
+.nav-link {
+    text-align: center;
+}
+
+.card {
+    background-color: #E2B4A7;
+    padding-bottom: 15px;
+}
+
+/* Social Media logo */
+.fa-facebook-square .fa-twitter-square .fa-instagram-square {
+    text-align: center;
+}
+
+/*Sign In Button */
+#SignIn {
+    background-color: #E2B4A7;
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.1em 0.1em 0;
+    border:0.16em solid rgba(255,255,255,0);
+    border-radius:2em;
+    color: white;
+}
+
+#SignIn:hover {
+    color: black;
+    border-color: black;
+}
+
+.input-block-level {
+    width: 60%
+}
+
+.page-link {
+    background-color: #E2B4A7;
+}
+
+/* Footer will stay in the same place at all times instead of adjusting depending on the length of the page 
+   Code taken from https://stackoverflow.com/questions/58984110/how-to-separate-header-body-and-footer */
+
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-flow: column;
+}
+footer {
+    margin-top: auto;
+}
+
+.aboutUs {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    /* 1 pixel black shadow to left, top, right and bottom */
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+    
+}
+
+  
+
